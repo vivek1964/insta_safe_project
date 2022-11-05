@@ -14,8 +14,6 @@ func main() {
 	}))
 
 	routes.Setup(app)
-	// routes.Setup(app)
-
 	app.Listen(":3000")
 
 }
